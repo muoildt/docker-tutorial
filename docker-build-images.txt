@@ -1,0 +1,15 @@
+## build one yourself image docker
+
+1. create a file with name Dockerfile
+
+2. config environment
+
+3. build docker-image
+
+docker build -t <name-docker-image> .
+
+4. connect docker image
+
+docker run -it <name-image-docker> bash
+
+

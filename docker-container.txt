@@ -1,0 +1,48 @@
+## docker container
+
+1. docker images va container 
+
+in a docker-image containing  many docker-containers
+
+2. create, start, delete container
+
+a. create 
+
+docker create -p 8000:80 <name-docker-images>
+
+b. list
+
+- list docker-container started 
+
+docker ps 
+
+- list all docker-container 
+
+docker ps -a
+
+c. start 
+
+docker start <docker-container-id>
+
+d. stop
+
+- stop a docker-container
+
+docker stop <docker-container-id>
+
+- stop all docker-container started
+
+docker stop $(docker ps -qa)
+
+e. delete
+
+- delete a docker-container
+
+docker rm <docker-container-id>
+
+- delete all docker-container
+
+docker rm $(docker ps -qa)
+
+
+
