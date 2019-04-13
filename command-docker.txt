@@ -1,0 +1,15 @@
+## command docker 
+
+## command images docker 
+
+1. pull images docker from docker-hub
+
+docker pull <name-images-docker>
+
+2. list images docker
+
+docker images
+
+3. delete images
+
+docker rmi <name-image-docker>

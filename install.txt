@@ -51,4 +51,8 @@ c. Verify that Docker CE is installed correctly by running the hello-world image
 
 sudo docker run hello-world
 
+9. chmod docker for user on ubuntu
+
+sudo usermod -aG docker username
+
 
