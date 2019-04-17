@@ -13,3 +13,15 @@ docker build -t <name-docker-image> .
 docker run -it <name-image-docker> bash
 
 
+5. docker-keyword
+
+WORKDIR /var/www/html #forder working 
+
+VOLUME /var/www/html #forder store data in local
+
+EXPOSE 9000 #port working 
+
+CMD ["php7-fpm.0"] #when you start container CMD will auto start
+
+
+
